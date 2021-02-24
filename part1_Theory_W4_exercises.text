@@ -1,0 +1,53 @@
+Week 04 - Exercise 01
+
+Part I -Theory
+
+1. What is a package? Name two reasons why it is good for us to use packages in our program.
+	A namespace that a programmer create to arrange classes and interfaces in a structured way.
+	A way of uniquely identify classes / interfaces that you create
+	With many programmers world-wide, it is much likely that people will create classes with the same name,
+	By using packages, you can, e.g. create a class Person that is located into the package, e.g. org.example.rafael and differentiate it from other class Person, that somebody else created.
+
+2. What is encapsulation? How do we achieve it in java?
+	Means for wrapping an object and send it over, through your program.
+	We achieve it by using methods for accessing the objects properties. e.g. getters and setters.
+
+3. What are access modifiers? Explain the difference between the four types of access modifiers in java.
+	Defines if.e.g. other classes can use a particular attribute or invoke a particular method of a class.
+	In other words, we set availability of our classes to other classes, projects, etc.
+	Four types of access modifiers in java: public, protected, no modifier, private. It is difference:
+	+ Public: The access level is within class, package, subclass and world.
+	+ Protected: The access level is within the package and subclass.
+	+ no modifier: The access level is within the package
+	+ Private: The access level is within the class.
+	
+4. What is inheritance?
+	A class can inherit properties of other classes. This capability is called inheritance in OOP.
+	When designing a program, we define the different clases and try to make them as small as possible.
+	For example, if the two classes have common attributes/ methods we can create a superclass and instead create classes that inherits those properties/ methods.
+
+5. In some other programming languages, methods are referred to as functions and procedures. Seek information on the internet and read about differences between functions and procedures. After that, give an example of how a function and how a procedure look like in java.
+
+6. What is modularization?
+	Modularization refers to the process of breaking system development into smaller pieces.
+
+7. What are the advantages of modularizing your code?
+	This is good for, e.g.manage, maintenance, debug etc.
+
+8. What is a class methods?
+	A class methods or static methods are methods that do not depend of any object.
+
+9. What is a method overload? Give an example on when it is suitable to overload a method.
+	A method can have difference signatures.
+	For example, if we look the methods max() and min() in the documentation of the class Math:
+	+max(double a, double b): returns the greater of two double values, or max(long a, long b): returns the greater of two long values.
+	+min(int a, inte b): returns the smaller of two int values, or min(float a, float b): returns the smaller of two float values.
+
+
+
+
+
+
+
+
+
